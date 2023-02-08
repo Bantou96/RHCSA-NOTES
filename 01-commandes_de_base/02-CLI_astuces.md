@@ -15,8 +15,8 @@ history
 history -c
 ```
 #### Recherche
-- Faire la combinaison de touche : ```ctrl + R + mot_clé```
-- Quitter la recherche : ```ctrl + G ```
+- Faire la combinaison de touche : ```ctrl + r + mot_clé```
+- Quitter la recherche : ```ctrl + g ```
 #### Déplacement
 - Début de commande : ```ctrl + A```
 - Fin de commande : ```ctrl + E```
