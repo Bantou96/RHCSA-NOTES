@@ -1,0 +1,14 @@
+# Définition des termes 
+- Système d'exploitation : programme ou un ensemble de programmes permettant la gestion de l'ordinateur et des périphériques.
+- Noyau : programme principal du système d'exploitation chargé en mémoire au démarrage du système.
+- Logiciel : Ensemble de programmes (Code source + Code Objet) 
+- Logiciel libre : entièrement libre d'accès, d'utilisation et de redistribution
+- Logiciel open source : entièrement libre d'accès, d'utilisation, de modification et de redistribution. 
+- FSF : Free Sotfware Fundation 
+- Licence : contrat que le détenteur des droits sur un logiciel va proposer afin de concéder certains droits à ses licenciés.
+- Organisme de gestion des licences : GPL (General Public Licence)
+- Liberté sur une licence
+  - Liberté 0 : Utiliser le logiciel quelque soit l'usage 
+  - Liberté 1 : Etudier le fonctionnement du logiciel et l'adapter selon ses besoins
+  - Liberté 2 : redistribution de copies du logiciel
+  - Liberté 3 : Améliorer le logiciel et le diffuser au public
