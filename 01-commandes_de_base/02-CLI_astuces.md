@@ -18,8 +18,8 @@ history -c
 - Faire la combinaison de touche : ```ctrl + r + mot_clé```
 - Quitter la recherche : ```ctrl + g ```
 #### Déplacement
-- Début de commande : ```ctrl + A```
-- Fin de commande : ```ctrl + E```
+- Début de commande : ```ctrl + a```
+- Fin de commande : ```ctrl + e```
 #### Suppression
 - Supprimer tout depuis le curseur jusqu'à la fin de la commande : ```ctrl + K```
 - Supprimer tout depuis le début de la commande : ```crtl + X``` puis ```backspace```
