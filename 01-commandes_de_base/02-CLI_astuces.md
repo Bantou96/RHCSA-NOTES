@@ -21,8 +21,8 @@ history -c
 - Début de commande : ```ctrl + a```
 - Fin de commande : ```ctrl + e```
 #### Suppression
-- Supprimer tout depuis le curseur jusqu'à la fin de la commande : ```ctrl + K```
-- Supprimer tout depuis le début de la commande : ```crtl + X``` puis ```backspace```
+- Supprimer tout depuis le curseur jusqu'à la fin de la commande : ```ctrl + k```
+- Supprimer tout depuis le début de la commande : ```crtl + x``` puis ```backspace```
 #### Modifier la casse
 - Transformer en majuscule : ```ESC + U``` 
 - Transformer en miniscule: ```ESC + L``` 
