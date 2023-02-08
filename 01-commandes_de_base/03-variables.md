@@ -30,5 +30,5 @@ export var
 - Permet l'enregistrement des arguments 
 
 ```
-read -sr VAR
+read -sr ROOT_PASSWORD
 ```
