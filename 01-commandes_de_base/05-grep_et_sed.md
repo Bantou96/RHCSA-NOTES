@@ -16,4 +16,4 @@ Remplacer tous les A majuscules en a minuscules en utilisant le drapeau **g** (g
 ```
 sed 's/A/a/g' file
 ```
-- Option ```-i``` : permet de sauvegarder directement
+- Option ```-n``` : permet de sauvegarder directement
