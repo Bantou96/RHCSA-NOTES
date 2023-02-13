@@ -26,3 +26,10 @@ history -c
 #### Modifier la casse
 - Transformer en majuscule : ```ESC + U``` 
 - Transformer en miniscule: ```ESC + L``` 
+
+#### Ecrire une commande sur plusieurs lignes
+Utiliser la touche TAB. 
+```
+exemple :
+cd + TAB
+```
