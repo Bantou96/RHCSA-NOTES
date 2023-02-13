@@ -46,7 +46,7 @@ date
 
 #### analyser l'en-tête compilé d'un fichier à la recherche d'un magic number à 2 chiffres et afficher son type
 ```
-file /etc/passwd
+file /etc/passwd 
 ```
 #### Stopper l'exécution du bash
 ```
