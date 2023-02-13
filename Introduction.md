@@ -91,4 +91,8 @@ Exemple
 ``` 
 wc -l /etc/passwd
 ```
+ou sous forme combiner (command1 ; command2)
+``` 
+wc -l /etc/passwd ; wc -w /etc/passwd
+```
 
