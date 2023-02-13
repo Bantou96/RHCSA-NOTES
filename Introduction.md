@@ -70,6 +70,7 @@ Il fournit les informations sur le système
 - /sbin --> répertoire contenant les exécutables
 - /sys  --> fichiers d'état des périphériques 
 - /tmp  --> fichiers temporaires
+- /var  --> fichiers variables
 
 ### Répertoires spéciaux
 - Répertoire courant noté .
