@@ -18,6 +18,7 @@ history -c
 ```
 !number (ex: !20)
 !string (ex: !date)
+!! (rappeler la derniere commande de l'historique)
 ```
 #### Recherche
 - Faire la combinaison de touche : ```ctrl + r + mot_clé```
