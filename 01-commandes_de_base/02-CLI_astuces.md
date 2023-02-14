@@ -14,9 +14,14 @@ history
 ```
 history -c
 ```
+- Rappeler une commande de l'historique
+```
+!number (ex: !20)
+!string (ex: !date)
+```
 #### Recherche
 - Faire la combinaison de touche : ```ctrl + r + mot_clé```
-- Quitter la recherche : ```ctrl + g ```
+- Quitter la recherche : ```ctrl + g```
 #### Déplacement
 - Début de commande : ```ctrl + a```
 - Fin de commande : ```ctrl + e```
@@ -24,12 +29,12 @@ history -c
 - Supprimer tout depuis le curseur jusqu'à la fin de la commande : ```ctrl + k```
 - Supprimer tout depuis le début de la commande : ```crtl + x``` puis ```backspace```
 #### Modifier la casse
-- Transformer en majuscule : ```ESC + U``` 
-- Transformer en miniscule: ```ESC + L``` 
+- Transformer en majuscule : ```ESC + u``` 
+- Transformer en miniscule: ```ESC + l``` 
 
 #### Ecrire une commande sur plusieurs lignes
-Utiliser la touche TAB. 
 ```
-exemple :
-cd + TAB
+head -n 3 \
+/usr/share/dict/words \
+/usr/share/dict/linux.words
 ```
