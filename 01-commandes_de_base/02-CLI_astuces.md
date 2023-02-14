@@ -31,6 +31,8 @@ history -c
 #### Modifier la casse
 - Transformer en majuscule : ```ESC + u``` 
 - Transformer en miniscule: ```ESC + l``` 
+#### Rappeler l'argument de la derniere commande
+Utiliser les combinaisons de touches : ```ESC + .``` ou ```Alt + .```
 
 #### Ecrire une commande sur plusieurs lignes
 ```
