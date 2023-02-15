@@ -72,6 +72,11 @@ Il fournit les informations sur le système
 - /tmp  --> fichiers temporaires
 - /var  --> fichiers variables qui changent de maniere dynamique
 
+Utiliser la commande suivante pour afficher l'arborescence
+``` 
+tree -d | less
+```
+
 ### Répertoires spéciaux
 - Répertoire courant noté .
 - Répertoire parent noté ..
