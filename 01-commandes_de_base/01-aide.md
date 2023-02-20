@@ -44,11 +44,11 @@ cd --help
 ```
 #### Informations brieves sur une commande 
 ```
-info ls 
+info tree 
 ```
 
 ```
-whatis cd 
+whatis tree
 ```
 
 ```
