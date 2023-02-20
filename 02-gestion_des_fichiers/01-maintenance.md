@@ -55,6 +55,15 @@ ls
 - Option ```-a``` : permet d'afficher tous les fichiers (les fichiers cachés)
 - Option ```-i``` : permet d'afficher le numero d'inode
 - Option ```-ltr``` : permet de trier par ordre de creation 
+#### Afficher l'arborescence : ```tree```
+```
+tree
+```
+- Option ```-L <number>``` : permet d'afficher que le niveau specifier. par exemple afficher le premier niveau d'arborescence de la racine 
+```
+tree -L 1 /
+```
+- Option ```-d ``` : permet d'afficher que les repertoires
 
 #### Créer un répertoire : ```mkdir```
 ```
