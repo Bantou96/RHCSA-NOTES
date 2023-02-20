@@ -9,7 +9,7 @@
 cp file_src file_dest
 ```
 - Option ```-r``` : permet de copier un dossier
-- Optio ```-i``` : lance une invite demandant la confirmation de copie
+- Option ```-i``` : lance une invite demandant la confirmation de copie
 #### Creer un backup de configuration
 ```
 cp file.config{,.back}
