@@ -10,13 +10,30 @@ cp file_src file_dest
 ```
 - Option ```-r``` : permet de copier un dossier
 - Optio ```-i``` : lance une invite demandant la confirmation de copie
+#### Creer un backup de configuration
+```
+cp file.config{,.back}
+```
+Creer un backup en precisant la date 
+```
+cp file.config{,.$(date +%F)}
+```
 #### Renommer et/ou déplacer un fichier : ```mv``` 
 ```
 mv file_src file_dest
 ```
+#### Renommer tout les fichiers .old en .back par exemple 
+```
+rename .old .back * 
+```
 #### Créer un fichier vide ou modifier l'horodatage : ```touch```
 ```
 touch new_file
+```
+#### Creer plusieurs fichiers avec une seule commande 
+La commande suivante permet de creer 4 saison d'une serie tele contenant chacune 8 episodes.
+```
+touch tv_season{1..4}_episode{1..8}.ogg
 ```
 #### Supprimer un fichier : ```rm```
 ```
