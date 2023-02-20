@@ -21,7 +21,7 @@ man -k <keyword>
 ```
 Exemple :
 ```
-man -k password
+man -k passwd
 ```
 #### Convertir le manuel d'une commande en fichier Postscript
 ```
