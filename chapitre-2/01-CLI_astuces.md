@@ -27,7 +27,7 @@ history -c
 - Début de commande : ```ctrl + a```
 - Fin de commande : ```ctrl + e```
 - Se deplacer vers la gauche mot par mot : ```ctrl + LeftArrow```
-- Se deplacer vers la droite mot par mot : ```ctrl + RightArrow``
+- Se deplacer vers la droite mot par mot : ```ctrl + RightArrow```
 #### Suppression
 - Supprimer tout depuis le curseur jusqu'à la fin de la commande : ```ctrl + k```
 - Supprimer tout avant le curseur : ```crtl + u``` 
