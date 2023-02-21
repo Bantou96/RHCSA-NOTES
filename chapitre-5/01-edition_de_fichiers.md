@@ -38,5 +38,10 @@ Les commandes utiles en mode commande (:)
 Editer le fichier : ```~/.vimrc```
 - numeroter les lignes dans vim 
 ```
-set nu
+set number
+```
+- definir le taquet de tabulation par defaut (2 espaces) lors de la modification de fichiers YAML par exemple dans le fichier ~/.vimrc
+```
+autocmd FileType yaml setlocal ts=2
+set number
 ```
