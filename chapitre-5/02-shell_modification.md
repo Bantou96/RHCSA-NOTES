@@ -18,7 +18,7 @@ mcd() {
   mkdir -pv $1 && cd $1
 }
 
-export EDITOR=vim
+export EDITOR=/usr/bin/vim
 
 export PATH=$PATH:/mnt/bin
 
