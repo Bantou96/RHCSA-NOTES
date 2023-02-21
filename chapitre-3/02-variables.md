@@ -14,6 +14,18 @@ ou
 ```
 echo ${mavariable}
 ```
+Cette dermiere peut etre utile dans le cas ou on souhaite concatener deux variables. par exemple :
+```
+echo ${var1}_${var2}
+```
+#### Substitution des commandes 
+```
+$command
+```
+Exemple :
+```
+echo Today is $(date +%A).
+```
 #### Portée d'une variable : par défaut locale
 - Disponible que pour l'instance de Bash
 - Pas accessible par les autres programmes
@@ -31,4 +43,7 @@ export var
 
 ```
 read -sr ROOT_PASSWORD
+```
+```
+echo $ROOT_PASSWORD
 ```
