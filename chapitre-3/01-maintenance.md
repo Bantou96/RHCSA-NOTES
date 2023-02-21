@@ -2,6 +2,23 @@
 - (?) : désigne n'importe quel caractère 
 - (*) : désigne n'importe quelle chaine de caractère 
 - [...] : désigne n'importe quel caractère dans la chaine
+- [!abc...] ou [^abc...] : designe tout caractere non compris dans la classe entre crochets
+- [[:alpha:]] : designe tout caractere alphabetique 
+- [[:lower:]] : designe tout caractere miniscule
+- [[:upper:]] : designe tout caractere majuscule
+- [[:alnum:]] : designe tout caractere alphabetique ou numerique 
+- [[:punct:]] : designe tout caractere imprimable, sauf un espace ou un caractere alphanumerique
+- [[:digit:]] : designe tout chiffre unique compris entre 0 et 9
+- [[:space:]] : designe tout caractere d'espace blanc unique (tabulations, sauts de ligne, retours chariot, sauts de page ou des espaces)
+
+Exemple : trouver une regex qui match --> Feb 29 11:05:50 
+```
+^[[:alpha:]]{3}[[:space:]][[:digit:]]{2}[[:space:]][[:digit:]]{2}[[:punct:]][[:digit:]]{2}[[:punct:]][[:digit:]]{2}
+```
+ou plus simple 
+```
+^[[:alpha:]]{3} [[:digit:]]{2} [[:digit:]]{2}:[[:digit:]]{2}:[[:digit:]]{2}
+```
 
 ## Commandes essentielles
 #### Copier un fichier : ```cp``` 
@@ -30,7 +47,7 @@ rename .old .back *
 ```
 touch new_file
 ```
-#### Creer plusieurs fichiers avec une seule commande 
+#### Creer plusieurs fichiers avec une seule commande (on peut utiliser la meme syntaxe pour creer des repertoires)
 La commande suivante permet de creer 4 saison d'une serie tele contenant chacune 8 episodes.
 ```
 touch tv_season{1..4}_episode{1..8}.ogg
@@ -59,7 +76,7 @@ ls
 ```
 tree
 ```
-- Option ```-L <number>``` : permet d'afficher que le niveau specifier. par exemple afficher le premier niveau d'arborescence de la racine 
+- Option ```-L <number>``` : permet d'afficher que le niveau specifier. l'exemple suivant permet d'afficher le premier niveau d'arborescence de la racine 
 ```
 tree -L 1 /
 ```
