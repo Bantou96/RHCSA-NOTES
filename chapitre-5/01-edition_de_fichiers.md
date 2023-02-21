@@ -43,5 +43,5 @@ set number
 - definir le taquet de tabulation par defaut (2 espaces) lors de la modification de fichiers YAML par exemple dans le fichier ~/.vimrc
 ```
 autocmd FileType yaml setlocal ts=2
-set number
+set number 
 ```
