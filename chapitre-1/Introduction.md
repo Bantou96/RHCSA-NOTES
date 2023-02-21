@@ -20,14 +20,14 @@
 - Slackware : Suse, OpenSuse...
 
 ### Red Hat
-• Une distribution Linux est un système d'exploitation installable, construit à partir d'un noyau
+- Une distribution Linux est un système d'exploitation installable, construit à partir d'un noyau
 Linux et prenant en charge les bibliothèques et les programmes utilisateur.
-• Red Hat participe à la prise en charge et à la contribution de code aux projets Open Source,
+- Red Hat participe à la prise en charge et à la contribution de code aux projets Open Source,
 parraine et intègre le logiciel de projet dans des distributions communautaires, et le stabilise
 pour le proposer comme produit pris en charge pour des entreprises.
-• Red Hat Enterprise Linux est la distribution Open Source Linux commercialisée pour les
+- Red Hat Enterprise Linux est la distribution Open Source Linux commercialisée pour les
 entreprises de Red Hat.
-• Un abonnement Red Hat Developer gratuit permet d'obtenir des ressources et des informations
+- Un abonnement Red Hat Developer gratuit permet d'obtenir des ressources et des informations
 gratuites, dont une version 16 nœuds de Red Hat Enterprise Linux.
 
 #### Le Shell
