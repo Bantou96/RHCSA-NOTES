@@ -12,7 +12,7 @@ HISTTIMEFORMAT="%F %T "
 
 export LESS="-X"
 
-alias skip_comment="grep ^[^#] $1"
+alias skip_comments="grep ^[^#] $1"
 
 mcd() {
   mkdir -pv $1 && cd $1
