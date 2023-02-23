@@ -123,7 +123,8 @@ Les mots de passe sont stockes dans ```/etc/shadow```
 ```
 user:$hashing-algorithm$salt$user's password hash:epoch:mindays:maxdays:warning:inactivity:expire-date
 ```
-- Pour $hashing-algorithm
+- Pour $hashing-algorithm :
+
 $1= MD5 hashing algorithm ; $5=SHA-256 Algorithm ; $6=SHA-512 Algorithm
 
 - Pour modifier ces derniers pour un utilisateur specifique, utiliser la commande ```chage``` 
