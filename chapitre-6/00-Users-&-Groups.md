@@ -83,6 +83,10 @@ sudo useradd <user> -u <value> -g <value> -G <value> -m -d /home/<directory> -s 
 - Option ``` --create-home || -m ``` : permet de creer le repertoire de l'utilisateur 
 - Option ``` --home || -d ``` : permet de specifier le repertoire utilisateur a creer
 
+- NB: Si on souhaite creer un utilisateur qui n'aura pas besoin d'ouvrir un shell (par exemple une application)
+```
+useradd -c "application-with-no-shell" -s /sbin/nologin <app-user>
+```
 ### Modifier les proprietes d'un utilisateur
 ```
 usermod <user> -c <comment> -g <principal-group> -aG <secondary-group> -L (lock user) -U (unlock user)  
