@@ -147,3 +147,5 @@ date -d "+30 days" +%F
 ```
 chage -E $(date -d "+30 days" +%F) <user>
 ```
+
+Pour modifier la politique de mots de passe de maniere globale il faudra editer le fichier ```/etc/login.defs```.
