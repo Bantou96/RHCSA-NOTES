@@ -116,7 +116,7 @@ getent group <group-name>
 grep SYS_GID_M /etc/login.defs
 ```
 
-### gestion des mots de passe 
+### Gestion des mots de passe 
 Les mots de passe sont stockes dans ```/etc/shadow```
 
 - Les champs : 
