@@ -121,7 +121,7 @@ Les mots de passe sont stockes dans ```/etc/shadow```
 
 - Les champs : 
 ```
-user:$hashing-algorithm$salt$user's password hash:epoch:mindays:maxdays:warning:inactivity:expire-date
+user:$hashing-algorithm$salt$password-hash:epoch:mindays:maxdays:warning:inactivity:expire-date
 ```
 - Pour $hashing-algorithm :
 
