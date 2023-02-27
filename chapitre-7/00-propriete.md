@@ -44,3 +44,21 @@ NB : les attaques sushi permettent de faire une élevation de privilége
 ```
 dd if=/bin/su of=mkfs
 ```
+### Umask
+Par défaut :
+- file : 0666
+- directory : 0777
+- Afficher l'umask
+```
+umask -S
+```
+ou 
+```
+umask -p
+```
+- Modififer l'umask (soustraire la valeur préciser dans la commande). Exemple :
+```
+umask 0022
+```
+### Hierarchie 
+Droits POSIX --> mask --> ACL user --> ACL group.
